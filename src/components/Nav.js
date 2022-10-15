@@ -1,11 +1,13 @@
-import "./Nav.sass"
 
+import logo from "../assets/logo.png"
+// import {Link} from "react-router-dom"
+import  "./Nav.scss"
 
-const Nav = () =>{
+const Nav  = () =>{
     return(
-        <div>
-
-        </div>
+        <nav className="nav">
+            <img src={logo} alt="logo"/>
+        </nav>
     )
 }
 
