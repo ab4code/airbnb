@@ -1,0 +1,37 @@
+.card-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-wrapper .card {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5px;
+}
+.card-wrapper .card .hero {
+  width: 100%;
+}
+.card-wrapper .card .rate {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-wrapper .card .rate .title {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.card-wrapper .card .info {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.card-wrapper .card .subinfo {
+  font-size: 18px;
+  margin-bottom: 8px;
+}/*# sourceMappingURL=Card.css.map */
